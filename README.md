@@ -1,3 +1,7 @@
+### Template para um Curriculo
+
+Template feito usando React.js para ser usado como curriculo web
+
 ### `npm start`
 
 Roda o App no ambiente de desenvolvimento \
