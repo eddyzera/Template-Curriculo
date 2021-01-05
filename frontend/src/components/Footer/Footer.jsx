@@ -13,6 +13,7 @@ export default function Footer() {
                 </ul>
             </nav>
             <p>Template Curriculo</p>
+            <p>Criado por Edgar Silva 2021</p>
         </footer>
     )
 }

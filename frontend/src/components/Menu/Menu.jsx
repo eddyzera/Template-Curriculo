@@ -1,6 +1,7 @@
 import React from 'react'
 import Perfil from '../../img/perfil.jpg'
 import './Menu.css'
+import { Link } from 'react-router-dom'
 
 export default function Menu() {
     return (
@@ -14,9 +15,15 @@ export default function Menu() {
             <div className="navigation">
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>Sobre</li>
-                        <li>Contato</li>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">Sobre</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">Contato</Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
