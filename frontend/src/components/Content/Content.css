@@ -1,6 +1,9 @@
 #content {
-    width: 109%;
     background: #FFF;
-    min-height: 500px;
+    min-height: 577px;
     margin: auto -165px;
+    max-height: 580px;
+    max-width: 1163px;
+    padding: 19px 0;
+    overflow-y: scroll;
 }

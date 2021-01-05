@@ -8,3 +8,10 @@
 body {
     background: #202020;
 }
+
+p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    line-height: 30px;
+    font-weight: 300;
+}
